@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.results,.results:hover,.results:visited,.results:link{
+	text-decoration: none;
+	color: black;
+
+}
+a {
+	text-decoration: none !important;
+	color: white;
+}
+
+.btn-primary{
+	background-color: rgb(96,211,229);
+	color:white !important;
+	transition: 0.5s;
+}
+.btn-primary:hover{
+	color: black;
+	background-color: rgb(164,219,219);
+	transition: 0.5s;
+}
+.row{
+	margin: 5%;
+}
+input{
+	max-width: 80%;
+}
+
+.goto{
+border-radius: 4px;
+background-color: #f4511e;
+color: white;
+border: none;
+text-align: center;
+font-size: 128%;
+transition: all 0.5s;
+cursor: pointer;
+}
+
+.goto span{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+
+}
+
+.goto span:after{
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top:0;
+	right: -20px;
+	transition: 0.5s;
+}
+.goto:hover span{
+	padding-right: 25px;
+}
+
+.goto:hover span:after{
+	opacity: 1;
+	right: 0;
+}
+p{
+	background-color: white;
+	transition: 0.5s;
+	box-shadow: 1px 0px 8px 1px rgba(18,11,18,1);
+	padding: 2px;
+
+}
+p:hover{
+	background-color: black;
+	color: white;
+	transition: 0.5s;
+}
+
+.searchmatch{
+	font-weight: bold;
+}
+.wikititle{
+	font-size: 140%;
+}
+
+
+
+
+
+

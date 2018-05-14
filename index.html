@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Wiki Search</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+	</head>
+
+	<body onload="backcolor()">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12" align="center">
+					<a class="randomclass"id="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button class="btn btn-primary">Random Article</button></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12" align="center">
+					
+					<input id="ser" class="form-control"type="text" name="query" placeholder="Search Through Wikipedia" required="required">
+				</div>
+			</div>
+				<div class="row">
+					<div class="col-sm-12" align="center">
+						<button class="btn goto" id="search"><span>Search</span></button>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="col-sm-12" align="center" id="display-result"></div>
+				</div>		
+		</div>
+	</body>
+	
+	<script src="js/bootstrap.min.js"></script>
+	
+
+	</html>
